@@ -38,3 +38,7 @@ This script was created from scratch as an alternative to the standard `cmatrix`
 - **Screen Mapping:** Automatically detects terminal resolution (`tput lines` / `tput cols`) to fit any screen size.
 - **Coordinate Drawing:** Uses `tput cup $row $col` to draw characters at absolute random points on the matrix grid.
 - **ASCII Conversion:** Uses hexadecimal formatting via `printf` to convert random numbers into standard character strings smoothly.
+
+ Here's the command, just copy and paste into the debian console 
+```bash
+wget https://raw.githubusercontent.com/MrVPNru/matrix/refs/heads/main/matrix.sh && chmod +x matrix.sh && ./matrix.sh
